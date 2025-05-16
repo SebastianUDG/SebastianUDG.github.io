@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"] {
+  flex: 1 1 45%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+button.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.blue {
+  background-color: #2196f3;
+  color: white;
+}
+
+button.green {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.red {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+td button {
+  margin-right: 5px;
+}
